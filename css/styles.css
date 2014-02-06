@@ -1,0 +1,38 @@
+/* Your Website Styles */
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
+charset "utf-8";
+/* CSS Document */
+
+ul
+{
+list-style: none;
+} 
+/* sets default values to zero, if not the browser will take control and add its default value */
+
+
+h1 {
+color:#800080;
+text-align: center;
+font-size: 16px;
+color: black;
+font-family: "Times New Roman", Times, serif;
+}
+h2 {
+color: #800080;
+}
+h3 {
+color: #800080;
+}
+p {
+line-height:1.25em;
+margin-bottom: 1em;
+text-align: center;
+font-size: 20px;
+color: black;
+font-family: "Times New Roman", Times, serif;
+}
