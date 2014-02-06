@@ -64,13 +64,10 @@ template {
  */
 
 html {
-    color:#800080;
-
-font-size: 28px;
 color: black;
 font-family: "Times New Roman", Times, serif;
-    -ms-text-size-adjust: 100%; /* 2 */
-    -webkit-text-size-adjust: 100%; /* 2 */
+ -ms-text-size-adjust: 100%; /* 2 */
+-webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /**
@@ -120,7 +117,7 @@ a:hover {
  */
 
 h1 {
-    font-size: 2em;
+	    font-size: 2em;
     margin: 0.67em 0;
 }
 
@@ -176,7 +173,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: monospace, serif;
+    font-family: "Times New Roman", serif;
     font-size: 1em;
 }
 
