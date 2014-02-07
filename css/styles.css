@@ -1,5 +1,7 @@
 /* Your Website Styles */
-
+html {
+    background: url("../img/natural_paper.png");
+}
 p  {
 font-family:"Times New Roman," Georgia, serif;
 font-size: 18px;
