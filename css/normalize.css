@@ -58,16 +58,15 @@ template {
    ========================================================================== */
 
 /**
-
+ * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
 
 html {
-color: black;
-font-family: "Times New Roman", Times, serif;
- -ms-text-size-adjust: 100%; /* 2 */
--webkit-text-size-adjust: 100%; /* 2 */
+    font-family: "Times New Roman," sans-serif; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /**
@@ -117,7 +116,7 @@ a:hover {
  */
 
 h1 {
-	    font-size: 2em;
+    font-size: 2em;
     margin: 0.67em 0;
 }
 
@@ -133,10 +132,7 @@ abbr[title] {
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
 
-b,
-strong {
-    font-weight: bold;
-}
+
 
 /**
  * Address styling not present in Safari 5 and Chrome.
@@ -174,7 +170,7 @@ kbd,
 pre,
 samp {
     font-family: "Times New Roman", serif;
-    font-size: 1em;
+    font-size: 18px;
 }
 
 /**
