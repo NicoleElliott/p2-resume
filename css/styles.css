@@ -1,18 +1,74 @@
 /* Your Website Styles */
-html {
-    background: url("../img/natural_paper.png");
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
 }
-p  {
-font-family:"Times New Roman," Georgia, serif;
+
+.container {
+    background: teal;
+    position: relative;
+/*    min-height: 210px;*/
+    border-radius: 10px;
+
+/*    left: 50%;
+    margin-left: -444px;*/
+    margin-top: 100px;
+    box-shadow: 0px 0px 50px 10px rgba(68, 68, 68, .8);
+}
+
+ ul{
+ text-align: left;
+line-height:1.25em;
+margin-bottom: 1em;
+}
+
+h1{
+font-size: 28px;
+font-weight; normal;
+}
+
+h2{
+font-size: 24px;
+font-weight; normal;
+}
+
+h3{
+font-size: 22px;
+font-weight; normal;
+}
+
+body{
 font-size: 18px;
 font-weight: normal;
 }
 
-
-p {
-line-height:1.50em;
-margin-bottom: 1em;
+ul{
+font-weight: normal;
+font-size: 18px;
+text-decoration: none;
+text-alignment: left;
+margin: 10px 0px 0px 0px;
 }
+li{
+font-weight: normal;
+font-size: 18px;
+text-decoration: none;
+list-style-type: none;
+text-alighment: left;
+
+}
+
+/* Your Website Styles */
+
+p  {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 18px;
+text-alignment: left;
+}
+
+
  .global-nav {
     position: fixed;
     top:0;
@@ -24,10 +80,10 @@ margin-bottom: 1em;
     white-space: nowrap;
     min-width: 30px;
 }
-
-.welcome {
-    position: absolute;
+html {
+    background: url("../img/bg.png");
 }
+
 .container {
     background: white;
     position: relative;
@@ -39,6 +95,7 @@ margin-bottom: 1em;
     margin-top: 100px;
     box-shadow: 0px 0px 50px 10px rgba(68, 68, 68, .8);
 }
+ 
 .content {
     margin-top: 50px;
 
@@ -47,23 +104,7 @@ margin-bottom: 1em;
     padding: 10px 0 10px 74px;
 }
 
-h1 {
-    text-align: center;
-    color : black;
-    font-size: 30px;
-	padding: 0px opx 300px 0px;
-}
-h2{
-	font-weight: normal;
-	font-size: 24px;
-}
-h3{
-	font-size: 20px;
-}
-a {
-    text-decoration: none;
-    color: black;
-}
+
 
 span {
     padding-right: 50px;
@@ -76,18 +117,12 @@ span {
 }
 .email:hover,
 .school-link:hover {
-    color: black;
+    color: blue;
     text-decoration: underline;
 }
 
 
-.thanks {
-    text-indent: 0;
-    text-align: center;
-    padding-left: 35px;
-    margin-bottom: -1px;
-}
- .bottom-margin {
+.bottom-margin {
     margin: 50px;
 }
 

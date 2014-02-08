@@ -5,21 +5,18 @@
  Gutter : 20px 
 
  */
-
-.grid_1 {width:64px;}
-.grid_2 {width:138px;}
-.grid_3 {width:212px;}
-.grid_4 {width:286px;}
-.grid_5 {width:360px;}
-.grid_6 {width:434px;}
-.grid_7 {width:508px;}
-.grid_8 {width:582px;}
-.grid_9 {width:656px;}
-.grid_10 {width:730px;}
-.grid_11 {width:804px;}
-.grid_12 {width:878px;}
-
-body {min-width: 888px;}
+.grid_1 { width: 65px; }
+.grid_2 { width: 150px; }
+.grid_3 { width: 235px; }
+.grid_4 { width: 320px; }
+.grid_5 { width: 405px; }
+.grid_6 { width: 490px; }
+.grid_7 { width: 575px; }
+.grid_8 { width: 660px; }
+.grid_9 { width: 745px; }
+.grid_10 { width: 830px; }
+.grid_11 { width: 915px; }
+.grid_12 { width: 1000px; }
 
 .grid_1,
 .grid_2,
@@ -33,16 +30,16 @@ body {min-width: 888px;}
 .grid_10,
 .grid_11,
 .grid_12 {
-	display:block;
-	margin-left: 5px;
-	margin-right: 5px;
+	margin: 0 20px 10px 0;
+	float: left;
+	display: block;
 }
 
 .alpha{margin-left:0px;}
 .omega{margin-right:0px;}
 
 .container{
-	width: 888px; 
+	width: 1000px; 
 	margin: auto;
 }
 
