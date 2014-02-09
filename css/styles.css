@@ -6,7 +6,9 @@
 	background: url("../img/grid-bg.png") repeat-y;
 }
 
-
+html {
+    background: url("../img/natural_paper.png");
+}
 span{
 font-align: center;
 }
