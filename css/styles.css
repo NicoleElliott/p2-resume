@@ -1,22 +1,24 @@
 /* Your Website Styles */
-
-
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+html{
+    font-family: 'PT Serif Caption', serif;
+   
+    background: url("../img/bg.png");
+}
 }
 
-html {
-    background: url("../img/natural_paper.png");
-}
 span{
 font-align: center;
 }
+
  ul{
  text-align: center;
  font-size: 30px;
 line-height:1.25em;
+}
 
+body{
+font-size: 18px;
+font-weight: normal;
 }
 
 h1{
@@ -34,18 +36,19 @@ font-size: 22px;
 font-weight; normal;
 }
 
-body{
-font-size: 18px;
-font-weight: normal;
-}
-
 ul{
+text-align: center;
 font-weight: normal;
-font-size: 18px;
 text-decoration: none;
 text-align: left;
 margin: 10px 0px 0px 0px;
+font-size: 20px;
+    line-height: 1.5em;
+    padding-right: 1.5px;
 }
+
+
+
 li{
 font-weight: normal;
 font-size: 20px;
@@ -58,18 +61,7 @@ margin: 0px -25px 0px 0px;
 
 /* Your Website Styles */
 
-p  {
-font-family: Verdana, Arial, Helvetica, sans-serif;
-font-size: 18px;
-text-alignment: left;
-}
 
-ul{
-    text-align: center;
-    font-size: 24px;
-    line-height: .75em;
-    padding-right: 75px;
-}
  .global-nav {
     text-align: center;
     position: fixed;
@@ -82,11 +74,14 @@ ul{
     white-space: nowrap;
     min-width: 30px;
 }
-html {
-    background: url("../img/bg.png");
-}
 
+element.style{
+   background: url("../img/bg.png");
+    background-repeat: repeat; 
+}
 .container {
+background: url("../img/bg.png");
+    background-repeat: repeat;
     background: white;
     position: relative;
 /*    min-height: 210px;*/
@@ -99,6 +94,7 @@ html {
 }
  
 .content {
+  
     margin-top: 50px;
 
 }
@@ -119,7 +115,7 @@ span {
 }
 .email:hover,
 .school-link:hover {
-    color: blue;
+    color: teal;
     text-decoration: underline;
 }
 

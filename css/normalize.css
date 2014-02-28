@@ -64,7 +64,10 @@ template {
  */
 
 html {
-    font-family: "Times New Roman," Times, serif; /* 1 */
+ 
+  font-family: 'PT Serif Caption', serif;
+  
+} /* 1 */
     -ms-text-size-adjust: 100%; /* 2 */
     -webkit-text-size-adjust: 100%; /* 2 */
 }
