@@ -37,26 +37,29 @@ span ul{
     padding: 10px 0 10px 50px;
 }
 
-h1{
-font-size: 24px;
-font-weight; normal;
+h1 {
+    font-family: 'Noto Serif', serif;
+   
+    font-size: 1.875em;
 }
-
 h2{
-font-size: 22px;
-font-weight; normal;
+    font-family: 'Noto Serif', serif;
+    font-size: 1.75em;
+}
+h3{
+    font-family: 'Noto Serif', serif;
+    font-size: 1.625em;
 }
 
-h3{
-font-size: 20px;
-font-weight; normal;
-}
+p{
+    font-family: Verdana, sans-serif;
+    font-size: 1.375em;
 
 
 ul{
 font-family: Verdana, sans-serif;
 text-decoration: none;
-font-size: 16px;
+font-size: 1em;
 }
  
    
@@ -64,7 +67,7 @@ li{
 font-family: Verdana, sans-serif;
 line-height: 1em;
 padding-right: 50px;
-font-size: 16px;
+font-size: 1em;
 text-decoration: none;
 list-style-type: none;
 text-align: left;
